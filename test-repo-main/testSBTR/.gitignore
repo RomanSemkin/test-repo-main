@@ -1,0 +1,31 @@
+# Personal build config
+override.conf.mk
+
+# Runtime and deploy files
+/build/
+/dep/
+/release/
+/src/var/
+/var
+
+# Byte-compiled / optimized / DLL files
+.cache/
+__pycache__/
+*.py[cod]
+
+# ipython
+.ipynb_checkpoints/
+
+# PyCharm
+.idea
+
+# Vagrant and Ansible
+.vagrant/
+*.retry
+
+# pyrfc
+src/dev_rfc.trc
+
+# vscode
+.vscode
+.devcontainer
